@@ -1,0 +1,67 @@
+h1{
+	font-size: 1.1rem;
+	padding-left:10px;
+
+}
+
+.question{
+	font-size: 0.8rem;
+}
+
+.btn {
+  padding: 8px 20px;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.moreExperience{
+	width: 220px;
+	border-radius: 43px;
+	margin:5px;
+	font-size: 0.8rem;
+	background-color:#D8545B;
+	border: 2px solid #D8545B;
+	color:white;
+	box-shadow: 10px 10px 14px 1px rgba(00,00,00,0.2);
+}
+
+.moreExperience:hover{
+	background-color:white;
+	color:#D8545B;
+	border: 2px solid #D8545B;
+	border-radius: 43px;
+}
+
+.fa-plus{
+	box-sizing: border-box;
+	color:white;
+	margin:8px;
+}
+.fa-plus:hover{
+	color:#b71f1c;
+}
+.moreExperience > h3{
+	margin:2px;
+}
+
+.hoteTitre{
+	color: #b71f1C;
+	font-size: 1.2rem;
+}
+.commercialTitre{
+	color: #801513;
+	font-size: 1.2rem;
+}
+
+.vendeurTitre{
+	color: #a41b19;
+	font-size: 1.2rem;
+}
+
+#selonvous{
+	color:#ba1f1f;
+	font-size:1.4rem;
+	font-weight: 400;
+}
+

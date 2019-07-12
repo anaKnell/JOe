@@ -1,0 +1,137 @@
+body{
+	/* font-family: 'Lato', sans-serif; */
+	font-family: 'Montserrat', sans-serif;
+	background-image: radial-gradient(circle, #bc0d0d, #c52424, #cc3637, #d34549, #d8545b);	
+}
+
+h2{
+	color:whitesmoke/* #ba1f1f */;
+	text-shadow: 2px 2px 0px #898999;
+	font-size:1.4rem;
+	font-weight: bold;
+}
+
+h3{
+	font-size: 0.95rem;
+}
+
+span{
+	font-size:0.8rem;
+	color:#E7D7D4;
+	text-shadow: none;
+
+}
+
+.border{
+	border-radius:20px;
+	box-shadow: 10px 10px 14px 1px rgba(00,00,00,0.2);
+}
+.continuer{
+	color:#F14F2C;
+	margin:0px;
+}
+.fa-angle-double-down{
+	color:#F14F2C;
+}
+
+.btnQuestionnaire{
+	border: 2px solid #b71f1C;
+	background-color: white;
+	width: 200px;
+	color:#ba1f1f;
+	border-radius:25px !important;
+	background-image: radial-gradient(circle, #bc0d0d, #c52424, #cc3637, #d34549, #d8545b)
+	box-shadow: 10px 10px 14px 1px rgba(00,00,00,0.2);
+}
+.btnQuestionnaire:hover{
+	color:#b71f1C;
+
+}
+
+#linkedIn{
+	width:300px;
+}
+
+#preQ{
+	height: 200px !important;
+	margin:auto !important;
+}
+
+.displayNone{
+	display:none;
+}
+.display {
+	display: block;
+}
+.visibilityHidden{
+	visibility: hidden;
+}
+footer{
+	height:200px;
+	width:100%;
+}
+
+/*custom radio && Checkbox */
+
+.custom-control{
+	padding-left:10%;
+}
+
+.custom-checkbox .custom-control-label::before,
+.custom-control-label::after {
+	border-radius: 50%;
+	background-color: #fdedec;
+}
+
+.custom-radio .custom-control-input:checked~.custom-control-label::before,
+.custom-radio .custom-control-input:checked~.custom-control-label::after {
+    background-color:#D8545B; 
+    background-image: url(data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3E%3Ccircle r='3' fill='%23fff'/%3E%3C/svg%3E); 
+ }
+.custom-radio .custom-control-input:focus ~ .custom-control-label::before {
+    box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem #D8545B; 
+}
+
+.custom-checkbox .custom-control-input:checked~.custom-control-label::before,
+.custom-checkbox .custom-control-input:checked~.custom-control-label::after{
+	background-color: #D8545B;
+	box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba(253, 237, 236, 0.25);
+	-webkit-box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba(253, 237, 236, 0.25);
+    -moz-box-shadow:0 0 0 1px #fff, 0 0 0 0.2rem rgba(253, 237, 236, 0.25);
+
+}
+.custom-checkbox .custom-control-input:focus ~ .custom-control-label::before {
+	-webkit-box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem #D8545B;
+    -moz-box-shadow:0 0 0 1px #fff, 0 0 0 0.2rem #D8545B;
+    box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem #D8545B;
+}
+ .custom-control:checked~.custom-control-label::after{
+	border:1px solid #D8545B;
+	margin:3px;
+	padding:3px;
+	width:80%;
+	border-radius:5px;
+	background-color: rgba(253, 237, 236, 0.25)
+}
+
+ input[type="text"]:focus, textarea:focus, select:focus{
+ 	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(222, 69, 59, 0.6) !important;
+ 	border:1px solid rgb(222, 69, 59) !important;
+ }
+textarea, input[type="text"] {
+	border-radius:25px !important;
+	background-color: rgba(222, 69, 59, 0.09) !important;
+	border:none !important;
+}
+input[type="text"]:hover, textarea:hover, select:hover{
+	background-color:  rgba(222, 69, 59, 0.6) !important;
+}
+
+/*selectCustom */
+
+select{
+	background-color: rgba(222, 69, 59, 0.09) !important;
+	border:none !important;
+}
+
+
